@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Go Travel</title>
+</head>
+
+<body>
+    <div class="Header">
+        <header class="headerlogo">
+            <div>
+                <nav>
+                    <ul>
+                        <div class="topMenu">
+                            <i><a href="destinations.html"> Destinations&nbsp; </a></i>
+                            <i><a href="activities.html"> &nbsp; Activities&nbsp; </a></i>
+                            <i><a href="Login.html"> &nbsp;Log In</a></i>
+                        </div>
+                        <a href="index.html">
+                            <img src="img/logoCompass.png" alt="Logo image" class="brandLogo">
+                        </a>
+                        <h1>Plan your next adventure! GoTravel!</h2>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <main class="activityMain">
+
+        <h2>Hiking</h2>
+        <div id="Hiking" ></div>
+        <h2>Sea Adventures</h2>
+        <div  id="Sea"></div>
+        <h2>Experiences</h2>
+        <div  id="Experiences"></div>
+    </main>
+    <div class="footer">
+        <footer>
+            <div>
+                <h4>Menu</h4>
+                <ul>
+                    <a href="#" >Home</a><br>
+                    <a href="#" >About</a><br>
+                    <a href="#" >Products</a>
+
+                </ul>
+            </div>
+            <div>
+                <h4>Information</h4>
+                <ul>
+                    <a href="#" >Cookie policy</a><br>
+                    <a href="#" >Privacy policy</a><br>
+                    <a href="#" >FAQ</a>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact us</h4>
+                <p class="footertxt">0047-123456789</p>
+                <p class="footertxt">project@gotravel.com</p>
+            </div>
+        </footer>
+    </div>
+
+    <div class="card hide">
+       
+        <div class="modal">
+            <div class="product">
+            <h3>Product name</h3>
+            <p class="longDesc">Long description</p>
+            <button id="closeModal">Close</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+    
+    <template>
+        <article>
+            <div class="product">
+                <h3 class="template">Product Name</h3>
+                <img class="img" width="250px" height="200px"></img>
+                <button class="template" id="revealButton">Read More</button>
+            </div>
+        </article>
+    </template>
+    
+    
+    <script src="scripts.js"></script>
+</body>
+
+</html>
